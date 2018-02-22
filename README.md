@@ -18,3 +18,6 @@ www.51zhuoqiu.com   一个球友自己做的网站
 
 3、7个golang web framework
 https://nordicapis.com/7-frameworks-to-build-a-rest-api-in-go/
+
+4、Rob Pike golang访谈
+https://studygolang.com/articles/1426
