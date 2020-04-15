@@ -1,0 +1,24 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Go: Run",
+            "type": "shell",
+            "command": "go.exe ",
+            "args": [
+                "run",
+                "${file}"
+            ],
+            "problemMatcher": [
+                "$go"
+            ],
+            "options": {
+                "env":{
+                    "GOPATH": "${workspaceFolder}"
+                }
+            }
+        }
+    ]
+}
